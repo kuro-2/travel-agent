@@ -416,7 +416,7 @@ def rule_based_classify(message):
 # ----------------- HF Inference API Setup -----------------
 # Read Hugging Face token from environment
 load_dotenv()
-HF_TOKEN = os.getenv("HF_TOKEN")
+HF_TOKEN = os.getenv("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")
 llm_client = None
 
 if not HF_TOKEN:
